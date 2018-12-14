@@ -1,0 +1,63 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #fff;
+    color: #808080;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+@media (min-width: 1299px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+#header .header-top > .container {
+    position: relative;
+}
+
+#header, #header a {
+    position: relative;
+}
+
+#header {
+    float: left;
+    position: relative;
+    width: 100%;
+    min-height: 245px;
+}
+
+#header .header-top {
+    float: left;
+    position: relative;
+    width: 100%;
+    /*background: #0260c6;*/
+    padding-top: 4px;
+}
+
+#header .header-top > .container {
+    position: relative;
+}
+
+#header .header-top .headerdiv {
+    position: relative;
+    float: left;
+    width: auto;
+}
+
+#header .header-top .header_logo {
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 49px;
+}
+
+#header .logo {
+    max-width: 100%;
+    position: relative;
+}
+
