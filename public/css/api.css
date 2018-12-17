@@ -10561,3 +10561,209 @@ body {
   float: right;
   position: relative;
 }
+
+#links_block_top {
+
+    clear: right;
+    float: right;
+    position: relative;
+
+}
+
+#tm_toplink {
+
+    float: right;
+    margin: 0;
+    position: relative;
+    white-space: nowrap;
+
+}
+
+#links_block_top li {
+
+    float: left;
+    position: relative;
+
+}
+
+#header #links_block_top a {
+
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 15px 19px 24px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+
+}
+#header #links_block_top li::after {
+  background: rgba(0, 0, 0, 0) url("https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/themes/PRS080190_01/assets/img/megnor/Sep.png") no-repeat scroll 0 0;
+  content: " ";
+  height: 25px;
+  left: auto;
+  position: absolute;
+  right: -1px;
+  top: 17px;
+  width: 2px;
+}
+#header #links_block_top li:last-child::after {
+  display: none;
+}
+#header #links_block_top li:last-child a {
+  padding-right: 0;
+}
+#header #links_block_top a:hover {
+  color: #70CEFF;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+a:hover {
+  color: #0258b5;
+  text-decoration: none;
+}
+
+.headernavfull {
+
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 8px 0 9px;
+    background: #fff;
+    box-shadow: 0px 3px 4px -4px #B1B1B1;
+    -webkit-box-shadow: 0px 3px 4px -4px #B1B1B1;
+    -moz-box-shadow: 0px 3px 4px -4px #B1B1B1;
+    -ms-box-shadow: 0px 3px 4px -4px #B1B1B1;
+    -o-box-shadow: 0px 3px 4px -4px #B1B1B1;
+    -khtml-box-shadow: 0px 3px 4px -4px #B1B1B1;
+    z-index: 9;
+    height: 64px;
+
+}
+
+.headernavfull {
+
+    text-align: center;
+
+}
+
+#tm_vertical_menu_top {
+
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 250px;
+    z-index: 9;
+
+}
+
+#tm_vertical_menu_top .block-title {
+
+    background: #111;
+    float: left;
+    padding: 25px 54px 19px 25px;
+    position: relative;
+    right: auto;
+    width: 100%;
+    cursor: pointer;
+    margin-top: -18px;
+
+}
+
+#tm_vertical_menu_top .block-title::before, #tm_vertical_menu_top .block-title::after {
+
+    position: absolute;
+    content: "";
+    top: 0px;
+    background: #000;
+    border-radius: 15px 0 6px 0;
+    -webkit-border-radius: 15px 0 6px 0;
+    -khtml-border-radius: 15px 0 6px 0;
+    -moz-border-radius: 15px 0 6px 0;
+    height: 10px;
+    width: 20px;
+    left: -10px;
+    right: auto;
+    z-index: -1;
+
+}
+
+.menu-title {
+
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    display: inline-block;
+
+}
+
+#tm_vertical_menu_top .block-title .fa.fa-angle-down {
+
+    position: relative;
+    float: right;
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+
+}
+
+#tm_vertical_menu_top .block-title .fa.fa-angle-down::before {
+
+    background: #000 url(https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/themes/PRS080190_01/assets/img/megnor/sprite1.png) no-repeat scroll -7px 7px;
+    content: "";
+    height: 30px;
+    width: 30px;
+    font-family: "FontAwesome";
+    position: absolute;
+    right: -40px;
+    top: 0;
+
+}
+
+#tm_vertical_menu_top .block-title::after {
+    left: auto;
+    right: -10px;
+    border-radius: 0 15px 0px 0px;
+    -webkit-border-radius: 0 15px 0 0px 0px;
+    -khtml-border-radius: 0 15px 0px 0px;
+    -moz-border-radius: 0 15px 0px 0px;
+}
+
+@media(max-width: 1449px){
+  #tm_vertical_menu_top{ 
+    width: 245px;
+  }
+  #tm_vertical_menu_top .block-title {
+
+    width: 245px;
+  }
+}
+
+@media(max-width: 1199px){
+  #tm_vertical_menu_top {
+    width: 221px;
+  }
+  #tm_vertical_menu_top .block-title {
+
+    padding: 25px 45px 19px 10px;
+
+  }
+  #tm_vertical_menu_top .block-title {
+
+    width: 221px;
+  }
+
+}
+
