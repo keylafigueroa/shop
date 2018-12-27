@@ -178,15 +178,18 @@ sup {
 }
 
 a {
-  color: #3490dc;
+  color: #000;
   text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+}
+a:focus,
+a:hover {
+  color:  #0258b5;
+  text-decoration: none;
 }
 
-a:hover {
-  color: #1d68a7;
-  text-decoration: underline;
+a:focus {
+  outline: 0;
+  outline-offset: 0;
 }
 
 a:not([href]):not([tabindex]) {
@@ -3709,23 +3712,33 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item {
-  display: block;
-  width: 100%;
-  padding: 0.25rem 1.5rem;
-  clear: both;
-  font-weight: 400;
-  color: #212529;
-  text-align: inherit;
-  white-space: nowrap;
-  background-color: transparent;
-  border: 0;
+    display: block;
+    width: 100%;
+    padding: 3px 10px;
+    clear: both;
+    font-weight: normal;
+    color: #878787;
+    text-align: inherit;
+    white-space: nowrap;
+    background: none;
+    border: 0;
 }
 
-.dropdown-item:hover,
-.dropdown-item:focus {
-  color: #16181b;
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #7a7a7a;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #f5f5f5;
+}
+.dropdown-i
+
+.dropdown-item.active,
+.dropdown-item.active:focus,
+.dropdown-item.active:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #f9ba48;
+  outline: 0;
 }
 
 .dropdown-item.active,
@@ -6464,6 +6477,7 @@ button.close {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
+  font-family: inherit;
 }
 
 .popover .arrow {
@@ -10500,7 +10514,7 @@ body {
     float: left;
     position: relative;
     width: 100%;
-    min-height: 245px;
+    min-height: 206;
 }
 
 #header .header-top {
@@ -10741,6 +10755,419 @@ a:hover {
     -moz-border-radius: 0 15px 0px 0px;
 }
 
+#top-menu > li {
+
+    margin: 0;
+    position: relative;
+
+}
+
+a, area, button, [role="button"], input, label, select, summary, textarea {
+
+    touch-action: manipulation;
+
+}
+
+
+a {
+
+    background-color: transparent;
+
+}
+
+.pull-xs-right {
+
+    float: right !important;
+
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: none;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.more-wrap {
+
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+#tm_vertical_menu_top .more-view {
+
+    color: #ccc;
+    display: inline-block;
+    padding: 15px 25px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+#tm_vertical_menu_top .more-view {
+
+    font-size: 12px;
+
+}
+
+.search-widget {
+
+    float: left;
+    width: auto;
+    margin-top: 3px;
+    margin-left: 34px;
+
+}
+
+.search-widget form {
+
+    position: relative;
+
+}
+
+.search-widget form input[type="text"] {
+
+    border: 0;
+    box-sizing: border-box;
+    color: #000;
+    height: 42px;
+    padding: 9px 20px 9px 20px;
+    font-size: 12px;
+    text-transform: capitalize;
+    float: left;
+    letter-spacing: 1px;
+    background: #f5f5f5;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 1px 1px 1px 0px #ccc inset;
+    -moz-box-shadow: 1px 1px 1px 0px #ccc inset;
+    -webkit-box-shadow: 1px 1px 1px 0px #ccc inset;
+    margin-right: 9px;
+    width: 536px;
+
+}
+
+.search-widget form button[type="submit"] {
+
+    background: #0363cd;
+    bottom: auto;
+    float: none;
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    vertical-align: top;
+    padding: 8px 14px 9px;
+    text-transform: uppercase;
+
+}
+
+#_desktop_cart {
+
+    float: right;
+    padding: 0;
+    width: auto;
+    z-index: 999;
+    position: relative;
+    margin-left: 8px;
+    margin-top: 4px;
+    margin-right: 5px;
+
+}
+
+#_desktop_cart > div {
+
+    padding: 0;
+
+}
+
+#header .blockcart .header {
+
+    cursor: pointer;
+    float: left;
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+
+.dropdown {
+
+    color: #acaaa6;
+
+}
+
+#header .blockcart .header a {
+
+    float: left;
+
+}
+
+#_desktop_cart .cart-image, #_mobile_cart .cart-image {
+
+    float: left;
+    position: relative;
+    background: #000 url(https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/themes/PRS080190_01/assets/img/megnor/sprite1.png) no-repeat 1px -355px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+
+}
+
+#_desktop_cart .cart-products-count {
+
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    background: #0260C6;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -moz-border-radius: 50%;
+    text-align: center;
+    line-height: 17px;
+    top: -8px;
+    font-size: 10px;
+    color: #fff;
+    right: -2px;
+
+}
+
+#_desktop_cart .cart-price {
+
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: auto;
+
+}
+
+#header .blockcart .cart-price .material-icons {
+
+    color: #000;
+    display: none;
+
+}
+
+.dropdown .expand-more {
+
+    color: #919191;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+#_desktop_user_info {
+
+    float: right;
+    position: relative;
+    z-index: 9;
+    margin-right: 7px;
+    margin-top: 4px;
+
+}
+
+#_desktop_user_info .tm_userinfotitle, #_mobile_user_info .tm_userinfotitle {
+
+    font-size: 0;
+    background: #000 url(https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/themes/PRS080190_01/assets/img/megnor/sprite1.png) no-repeat 1px -235px;
+    height: 40px;
+    float: left;
+    width: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#_desktop_user_info .user-info, #_mobile_user_info .user-info {
+
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #f0f0f0;
+    display: none;
+    margin: 0;
+    min-width: 200px;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 52px;
+    z-index: 9;
+    font-size: 13px;
+
+}
+
+#_desktop_user_info .tm_userinfotitle, #_mobile_user_info .tm_userinfotitle {
+
+    font-size: 0;
+    cursor: pointer;
+
+}
+
+#_desktop_user_info > .user-info a {
+
+    clear: both;
+    float: left;
+    font-size: 13px;
+    margin-right: 10px;
+    padding: 0;
+    text-transform: capitalize;
+    width: 100%;
+    color: #000;
+
+}
+
+#_desktop_user_info:hover .tm_userinfotitle, #_mobile_user_info:hover .tm_userinfotitle {
+
+    background-color: #0260c6;
+
+}
+
+#_desktop_cart .cart-image:hover, #_mobile_cart .cart-image:hover {
+
+    background-color: #0260c6;
+
+}
+
+.search-widget form button[type="submit"]:hover, .search-widget form input[type="text"]:focus + button[type="submit"], .search-widget form button[type="submit"]:active, .search-widget form button[type="submit"]:focus, .search-widget form button[type="submit"]:focus, .search-widget form button[type="submit"]:hover:active, .search-widget form button[type="submit"]:focus:active, .search-widget form button[type="submit"]:focus:hover:active, .search-widget form button[type="submit"]:hover:focus {
+
+    background: #000;
+
+}
+
+#wrapper {
+
+    clear: both;
+    padding: 30px 0;
+    position: relative;
+
+}
+
+#app #wrapper {
+
+    padding: 0;
+
+}
+
+.topdiv {
+
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+
+}
+
+.spinner {
+
+    min-height: 500px;
+    background: url(https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/themes/PRS080190_01/assets/img/megnor/loading.gif) no-repeat center center #fff;
+    width: 100%;
+
+}
+
+.flexslider .img {
+
+  max-width: 100%
+
+}
+
+.tmcategorylist {
+
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 0;
+
+}
+
+.products-section-title {
+
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: relative;
+    text-transform: capitalize !important;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 40px;
+
+}
+
+.products-section-title::after {
+
+    background: #0000 url(https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/themes/PRS080190_01/assets/img/megnor/divider.png) no-repeat scroll center center;
+    content: "";
+    height: 20px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 100px;
+    z-index: 7;
+
+}
+
 @media(max-width: 1449px){
   #tm_vertical_menu_top{ 
     width: 245px;
@@ -10749,6 +11176,17 @@ a:hover {
 
     width: 245px;
   }
+}
+
+.tm-carousel {
+
+    display: none;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0;
+    -ms-touch-action: pan-y;
+
 }
 
 @media(max-width: 1199px){
@@ -10767,3 +11205,18 @@ a:hover {
 
 }
 
+@media (min-width: 992px) {
+
+  .hidden-lg-up {
+
+      display: none !important;
+
+  }
+}
+
+
+@media (max-width: 767px) {
+  .hidden-sm-down {
+    display: none !important;
+  }
+}
