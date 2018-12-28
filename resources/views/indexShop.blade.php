@@ -392,6 +392,68 @@
                     </div>
                 </div>
             </div>
+
+            <div id="tmcmsbannerblock">
+                <div class="container">
+                    <div class="cms1block">
+                        <div class="innercms1block">
+                            <div class="first_banner first_banner1 col-lg-6 col-md-6 col-sm-12 col-xs-12"><a class="imgcms1 imgcms" href="#"> <img alt="top-banner-1.jpg" src="https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/img/cms/Sub-banner-01.jpg"></a>
+                                <div class="innercms1text innercms1text1"><span class="smalltext smalltext1"> smart watches </span>
+                                    <h1 class="headingcms1 headingcms11">27% flate</h1>
+                                </div>
+                            </div>
+                            <div class="first_banner first_banner2 col-lg-6 col-md-6 col-sm-12 col-xs-12"><a class="imgcms2 imgcms" href="#"> <img alt="top-banner-1.jpg" src="https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/img/cms/Sub-banner-02.jpg"></a>
+                                <div class="innercms1text innercms1text2"><span class="smalltext smalltext2"> apple moniters </span>
+                                    <h1 class="headingcms1 headingcms12">15% flate</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tmcmsblock">
+                <div class="cms-banner-inner">
+                    <div class="cms-banner-img"><a class="image-link" target="_blank" title="Home"><img src="https://prestashop.templatemela.com/PRS08/PRS080190/PRS01/img/cms/Cms.jpg" alt="Cms.jpg"></a><span class="static-wrapper"><span class="static-inner"><span class="text1 static-text">Best Discount</span><span class="text2 static-text">On Game Console</span><span class="text-button"><a target="_blank" class="link-text">Grab Offer</a></span></span></span></div>
+                </div>
+            </div>
+
+            <div id="tmcmsserviceblock">
+                <div class="container">
+                    <div class="service-cms-banner-list service-1">
+                        <div class="service-content">
+                            <div class="icon-image"></div>
+                            <div class="service-details">
+                                <div class="title">next day delivery</div>
+                                <span class="service-title">UK Orders Only</span></div>
+                        </div>
+                    </div>
+                    <div class="service-cms-banner-list service-2">
+                        <div class="service-content">
+                            <div class="icon-image"></div>
+                            <div class="service-details">
+                                <div class="title">best online support</div>
+                                <span class="service-title">hours: 8AM - 11PM</span></div>
+                        </div>
+                    </div>
+                    <div class="service-cms-banner-list service-3">
+                        <div class="service-content">
+                            <div class="icon-image"></div>
+                            <div class="service-details">
+                                <div class="title">worldwide delivery</div>
+                                <span class="service-title">for order over $100</span></div>
+                        </div>
+                    </div>
+                    <div class="service-cms-banner-list service-4">
+                        <div class="service-content">
+                            <div class="icon-image"></div>
+                            <div class="service-details">
+                                <div class="title">special weekly gift</div>
+                                <span class="service-title">enter numbers</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
         </div>
 
